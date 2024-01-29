@@ -1,0 +1,49 @@
+.footer-bg {
+  background: var(--cor-s1);
+  padding-top: 40px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  color: var(--cor-1);
+}
+
+.footer-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+}
+
+.copy {
+  display: flex;
+  background: var(--cor-p1);
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+@media (max-width: 800px) {
+  .footer-menu {
+    gap: 12px;
+  }
+
+  .footer-menu a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .copy {
+    height: 50px;
+  }
+}

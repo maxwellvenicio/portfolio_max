@@ -1,0 +1,55 @@
+.contato-bg   {
+  padding: 40px 0px;
+}
+
+.contato-bg h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contato-bg h3 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+.contato {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contato-card {
+  width: 280px;
+  height: 150px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: var(--cor-p4);
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.contato-card p {
+  margin-bottom: 10px;
+}
+
+
+/*responsivo*/
+
+@media (max-width: 800px) {
+
+  .contato-dados {
+    padding: 20px;
+  }
+
+  .contato-bg   {
+    padding: 30px 0px;
+  }
+
+  .contato-bg h2 {
+    margin-bottom: 30px;
+  }
+}

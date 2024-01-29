@@ -1,0 +1,46 @@
+/*UTILITARIOS*/
+@import './utilitarios/componentes.css';
+@import './utilitarios/cores.css';
+@import './utilitarios/tipografia.css';
+
+/*HEADER*/
+@import './header.css';
+
+/*HOME*/
+@import './informacoes.css';
+@import './sobre.css';
+@import './habilidades.css';
+@import './projetos.css';
+@import './contato.css';
+
+/*FOOTER*/
+@import './footer.css';
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  background: var(--cor-p3);
+  color: var(--cor-1);
+}
+
+ul, li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
