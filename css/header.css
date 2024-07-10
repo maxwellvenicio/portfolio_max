@@ -1,5 +1,6 @@
 .header-bg {
   background: var(--cor-s1);
+  border-bottom: solid 1px var(--cor-p1)
 }
 
 .header {
@@ -9,6 +10,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 0px;
+}
+
+.header img {
+  width: 80px;
 }
 
 
@@ -40,6 +45,9 @@
   width: 100%;
 }
 
+  .header-menu > img {
+    width: 100px;
+  }
 
 @media (max-width: 800px) {
    
@@ -52,6 +60,9 @@
   }
 }
 
+.logo {
+  width: 100px;
+}
 
 /*menu mobile */
 

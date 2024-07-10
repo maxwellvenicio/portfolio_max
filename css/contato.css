@@ -36,6 +36,11 @@
   margin-bottom: 10px;
 }
 
+.contato-card span:hover {
+  color: var(--cor-p2) ;
+}
+
+
 
 /*responsivo*/
 

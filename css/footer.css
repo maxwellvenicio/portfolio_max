@@ -3,6 +3,10 @@
   padding-top: 30px;
 }
 
+.footer img {
+  width: 80px;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
