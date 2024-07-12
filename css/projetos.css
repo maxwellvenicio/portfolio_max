@@ -45,7 +45,7 @@
   height: 8px;
   width: 12px;
   margin-right: 8px;
-  background-color: var(--cor-p2);
+  background-color: var(--cor-p1);
   transition: width 0.2s;
 }
 
