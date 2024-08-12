@@ -23,10 +23,6 @@
   margin-bottom: 40px;
 }
 
-.projetos-lista a {
-  display: block;
-}
-
 .projetos-lista img {
   margin-bottom: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -53,10 +49,10 @@
   width: 24px;
 }
 
-.projetos-icon {
+.projetos-icon   {
   display: flex;
-  gap: 15px;
   align-items: center;
+  gap: 15px;
 }
 
 @media (max-width: 1100px) {
