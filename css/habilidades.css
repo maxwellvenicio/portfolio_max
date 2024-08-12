@@ -24,7 +24,6 @@
 
 .habilidades {
   width: 750px; 
-  height: 400px;
   gap: 80px;
   display: flex;
   align-items: center;
@@ -34,7 +33,7 @@
   border-radius: 6px;
   background: var(--cor-p4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 40px;
+  padding: 80px 0;
 }
 
 .habilidade-bg h2 {
@@ -57,39 +56,15 @@
   display: flex;
 }
 
-.habilidade-front h3:after {
-  content: " ";
-  display: block;
-  height: 40px;
-  width: 2px;
-  background: var(--cor-p1);
-  margin-left: 140px;
-  margin-top: -35px;
-  transition: 0.3s;
-  position: absolute;
+.habilidade-front h3 {
+  justify-items: flex-start;
 }
+
 
 .habilidade-ux {
   align-items: center;
-  gap: 100px;
+  gap: 195px;
   display: flex;
-}
-
-.habilidade-ux h3 {
-  margin-right: 130px;
-}
-
-
-.habilidade-ux h3:after {
-  content: " ";
-  display: block;
-  height: 40px;
-  width: 2px;
-  background: var(--cor-p1);
-  margin-left: 140px;
-  margin-top: -35px;
-  transition: 0.3s;
-  position: absolute;
 }
 
 
@@ -100,14 +75,12 @@
   
   .habilidade-bg h2 {
     margin-bottom: 30px;
-    text-align: center;
   }
   
   .habilidades {
     width: 100%;
     gap: 40px;
-    padding: 30px;  
-
+    padding: 50px; 
   }
 
   .grid-container {
@@ -120,23 +93,22 @@
     gap: 50px;
     margin-bottom: 40px;
   }
-  
-  .habilidade-front h3:after {
-    margin-left: 97px;
-    margin-top: -35px;
-    transition: 0.3s;
-    position: absolute;
-  }
 
   .habilidade-ux {
-    gap: 50px;
+    gap: 125px;
   }
-  
-  .habilidade-ux h3:after {
-    margin-left: 97px;
-    margin-top: -35px;
-    transition: 0.3s;
-    position: absolute;
+}
+
+@media (max-width: 450px) {
+
+  .habilidades {
+    gap:40px;
+  }
+
+  .habilidade-front, .habilidade-ux {
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 30px;
   }
 
 }

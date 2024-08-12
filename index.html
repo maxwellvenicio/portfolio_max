@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!--favicon-->
-  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon.ico">
 
 
   <!--icons-->
@@ -53,9 +53,9 @@
     <div class="container info">
       <div class="info-dados">
         <span class="font-2-l">Olá, sou</span>
-        <h2 class="font-1-xxl cor">Maxwell Venicio</h2>
-        <p class="font-2-l cor-p1">Desenvolvedor Front-End</p>
-      </div>
+        <h2 class="f1-titulo cor-0">Maxwell Venicio</h2>
+        <p class="f3-titulo-itens cor-p1">Desenvolvedor Front-End</p>  
+      </div>  
       <div class="info-button">
         <a href="./doc_max/Maxwell_Venicio_Desenvolvedor_Front_End.pdf" download="currículo_maxwell_venicio.pdf"><button class="botao-secundario">Currículo</button></a> 
         <a href="#sobre"><button class="botao btl-scroll">Sobre</button></a> 
@@ -69,15 +69,15 @@
 
   <main id="sobre" class="sobre-bg">
     
-    <h2 class="container font-1-xl">Sobre</h2>
+    <h2 class="container f2-subtitulo">Sobre</h2>
 
     <div class="sobre container">
       <picture>
         <img src="./img/foto-sobre.svg" alt="ilustração dev">
       </picture>
       <div class="sobre-conteudo">
-        <h1 class="font-1-xxl cor-p1">Dev Front-End e UI/UX Design</h1>
-        <p class="font-2-l cor-3">Desenvolvedor iniciante com habilidades em HTML, CSS e JavaScript, com foco em criar interfaces web modernas. Busco desafios para aprimorar ainda mais meus conhecimentos.</p>
+        <h1 class="f1-titulo cor-p1">Desenvolvedor Front-End e UI/UX Design</h1>
+        <p class="f4-texto  cor-3">Desenvolvedor iniciante com habilidades em HTML, CSS e JavaScript, com foco em criar interfaces web modernas. Busco desafios para aprimorar ainda mais meus conhecimentos.</p>
         <a class="botao" href="#contato">Contato</a>
       </div>
     </div>
@@ -88,10 +88,10 @@
     <span class="cor-p1"></span>
 
     <div class="container">
-      <h2 class="font-1-xl">Tecnologias</h2>
+      <h2 class="f2-subtitulo">Skills</h2>
       <div class="habilidades">
         <div class="habilidade-front">
-          <h3>development</h3>
+          <h3 class="f3-titulo-itens">Development</h3>
           <ul class="grid-container">
             <li class="grid-item">
               <i class="fa-brands fa-html5 fa-3x cor-p2"></i>
@@ -115,10 +115,16 @@
         </div>
 
         <div class="habilidade-ux">
-          <h3>UI/UX</h3>
+          <h3 class="f3-titulo-itens">UI/UX</h3>
           <ul class="grid-container">
             <li class="grid-item">
-              <i class="fa-brands fa-figma fa-3x cor-p2"></i>
+              <i class="fa-brands fa-figma fa-3x cor-p2"></i>                
+            </li>
+            <li class="grid-item">
+              <i class="fa-brands fa-wordpress-simple fa-3x cor-p2"></i>
+            </li>
+            <li class="grid-item">
+              <img src="/img/icon/ps.svg" alt="Photoshop icon">
             </li>
           </ul>
         </div>
@@ -129,34 +135,41 @@
 
   <section id="projetos" class="projetos-lista">
 
-    <h2 class="font-1-xl">Projetos</h2>
+    <h2 class="f2-subtitulo">Projetos</h2>
 
     <ul>
       <li>
         <a href="https://maxwellvenicio.github.io/moontrip/" target="_blank">
           <img src="./img/img-portifolio/project1.webp" alt="Moontrip">
-          <h3 class="font-2-l">Moontrip</h3>
+          <h3 class="f3-titulo-itens">Moontrip</h3>
         </a>
         <div class="projetos-icon">
+
+          <a href="https://github.com/maxwellvenicio/moontrip.git" target="_blank">
+            <button class="botao-secundario"><i class="fa-brands fa-github fa-1x cor-p1 "></i></button>
+          </a>
+
           <i class="fa-brands fa-html5 fa-2x cor-p2"></i>
           <i class="fa-brands fa-css3-alt fa-2x cor-p2"></i>
           <i class="fa-brands fa-bootstrap fa-2x cor-p2"></i>
-          
-          <a href="https://github.com/maxwellvenicio/moontrip.git" target="_blank">
-           <button class="botao-secundario"><i class="fa-brands fa-github fa-1x cor-p2"></i></button>
-          </a>
-          
+
         </div>
       </li>
 
       <li>
         <a href="https://maxwellvenicio.github.io/idrep-tecnologia/" target="_blank">
           <img src="./img/img-portifolio/project6.webp" alt="iDRep">
-          <h3 class="font-2-l">iD Rep Tecnologia</h3>
+          <h3 class="f3-titulo-itens">iD Rep Tecnologia</h3>
+
           <div class="projetos-icon">
+
+            <a href="https://github.com/maxwellvenicio/idrep-tecnologia" target="_blank">
+              <button class="botao-secundario"><i class="fa-brands fa-github fa-1x cor-p1 "></i></button>
+            </a>
             <i class="fa-brands fa-html5 fa-2x cor-p2"></i>
             <i class="fa-brands fa-css3-alt fa-2x cor-p2"></i>
             <i class="fa-brands fa-figma fa-2x cor-p2"></i>
+
           </div>
         </a>
       </li>
@@ -164,11 +177,18 @@
       <li>
         <a href="https://maxwellvenicio.github.io/tela_login/" target="_blank">
           <img src="./img/img-portifolio/project7.webp" alt="Tela de Login">
-          <h3 class="font-2-l">Tela de Login</h3>
+          <h3 class="f3-titulo-itens">Tela de Login</h3>
+
           <div class="projetos-icon">
+
+            <a href="https://github.com/maxwellvenicio/tela_login" target="_blank">
+              <button class="botao-secundario"><i class="fa-brands fa-github fa-1x cor-p1 "></i></button>
+            </a>
+
             <i class="fa-brands fa-html5 fa-2x cor-p2"></i>
             <i class="fa-brands fa-css3-alt fa-2x cor-p2"></i>
             <i class="fa-brands fa-react fa-2x cor-p2"></i>
+
           </div>
         </a>
       </li>
@@ -176,8 +196,32 @@
       <li>
         <a href="https://maxwellvenicio.github.io/gerador-de-senhas/" target="_blank">
           <img src="./img/img-portifolio/project5.webp" alt="Gerador de Senhas">
-          <h3 class="font-2-l">Gerador de Senhas</h3>
+          <h3 class="f3-titulo-itens">Gerador de Senhas</h3>
+
           <div class="projetos-icon">
+
+            <a href="https://github.com/maxwellvenicio/gerador-de-senhas" target="_blank">
+              <button class="botao-secundario"><i class="fa-brands fa-github fa-1x cor-p1 "></i></button>
+            </a>
+
+            <i class="fa-brands fa-html5 fa-2x cor-p2"></i>
+            <i class="fa-brands fa-css3-alt fa-2x cor-p2"></i>
+            <i class="fa-brands fa-js fa-2x cor-p2"></i>
+
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://maxwellvenicio.github.io/to-do-list/" target="_blank">
+          <img src="./img/img-portifolio/project3.webp" alt="Lista de Tarefas">
+          <h3 class="f3-titulo-itens">Lista de Tarefas</h3>
+          <div class="projetos-icon">
+
+            <a href="https://github.com/maxwellvenicio/to-do-list" target="_blank">
+              <button class="botao-secundario"><i class="fa-brands fa-github fa-1x cor-p1 "></i></button>
+            </a>
+
             <i class="fa-brands fa-html5 fa-2x cor-p2"></i>
             <i class="fa-brands fa-css3-alt fa-2x cor-p2"></i>
             <i class="fa-brands fa-js fa-2x cor-p2"></i>
@@ -188,30 +232,21 @@
       <li>
         <a href="https://www.figma.com/file/Gegzwnh8GVB1JOuaVfYBXA/grupo-saet?type=design&node-id=0%3A1&mode=design&t=6YibBvlowB8TLy6w-1" target="_blank">
           <img src="./img/img-portifolio/project4.webp" alt="Grupo Saet">
-          <h3 class="font-2-l">Grupo Saet</h3>
+          <h3 class="f3-titulo-itens">Grupo Saet</h3>
           <div class="projetos-icon">
             <i class="fa-brands fa-figma fa-2x cor-p2"></i>
           </div>
         </a>
       </li>
 
-      <li>
-        <a href="https://maxwellvenicio.github.io/to-do-list/" target="_blank">
-          <img src="./img/img-portifolio/project3.webp" alt="Lista de Tarefas">
-          <h3 class="font-2-l">Lista de Tarefas</h3>
-          <div class="projetos-icon">
-            <i class="fa-brands fa-figma fa-2x cor-p2"></i>
-          </div>
-        </a>
-      </li>
     </ul>
   </section>
 
   <section id="contato" class="contato-bg">
 
-    <h2 class="font-1-xl container">Contato</h2>
+    <h2 class="f2-subtitulo container">Contato</h2>
 
-    <h3>Fale comigo:</h3>
+    <h3 class="f3-titulo-itens">Fale comigo:</h3>
     
       <div class="contato container" aria-label="Dados de Contato">
         <div class="contato-card">
