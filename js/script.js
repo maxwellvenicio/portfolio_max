@@ -22,3 +22,6 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 
 linkMenu.addEventListener('click', toggleMenu);
 linkMenu.addEventListener('touchstart', toggleMenu);
+
+
+//form

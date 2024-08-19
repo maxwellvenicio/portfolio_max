@@ -58,7 +58,7 @@
       </div>  
       <div class="info-button">
         <a href="#sobre"><button class="botao">Sobre</button></a> 
-        <a href="#projetos"><button class="botao-secundario">projetos</button></a> 
+        <a href="#projetos"><button class="botao-secundario">Download</button></a>
       </div>
       <div class="redes-icon">
         <a href="https://www.linkedin.com/in/maxwell-venicio-80a7a813a/"  target="_blank"><i class="fa-brands fa-linkedin fa-2x cor-p2"></i></a>
@@ -246,34 +246,53 @@
 
       <h2 class="f2-subtitulo container">Contato</h2>
 
-      <h3 class="f3-titulo-itens">Fale comigo:</h3>
-    
-      <div class="contato container" aria-label="Dados de Contato">
-        <div class="contato-card">
-          <i class="fa-brands fa-whatsapp fa-2x cor-p2"></i>
-          <h4>Whatsapp</h4>
-          <p>85 98560-2639</p>
-          <a href="https://api.whatsapp.com/send/?phone=5585985602639&text&type=phone_number&app_absent=0" target="_blank">
-            <span class="cor-p1">Enviar mensagem <i class="bi bi-arrow-right"></i></span>
-          </a>
+      <div  class="contato container" aria-label="Dados de Contato">
+        <div>
+          <div class="contato-card">
+            <i class="fa-brands fa-whatsapp fa-2x cor-p2"></i>
+            <h4>Whatsapp</h4>
+            <p>85 98560-2639</p>
+            <a href="https://api.whatsapp.com/send/?phone=5585985602639&text&type=phone_number&app_absent=0" target="_blank">
+              <span class="cor-p1">Enviar mensagem <i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+          <div class="contato-card">
+            <i class="fa-regular fa-envelope fa-2x cor-p2"></i>
+            <h4>E-mail</h4>
+            <p>maxwellvenicio@gmail.com</p>
+            <a href="mailto:maxwellvenicio@gmail.com" target="_blank">
+              <span class="cor-p1">Enviar mensagem <i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+          <div class="contato-card">
+            <i class="fa-solid fa-phone fa-2x cor-p2"></i>
+            <h4>Telefone</h4>
+            <p>85 98560-2639</p>
+            <a href="tel:+5585985602639" target="_blank">
+              <span class="cor-p1">Ligar <i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
         </div>
-        <div class="contato-card">
-          <i class="fa-regular fa-envelope fa-2x cor-p2"></i>
-          <h4>E-mail</h4>
-          <p>maxwellvenicio@gmail.com</p>
-          <a href="mailto:maxwellvenicio@gmail.com" target="_blank">
-            <span class="cor-p1">Enviar mensagem <i class="bi bi-arrow-right"></i></span>
-          </a>
-        </div>
-        <div class="contato-card">
-          <i class="fa-solid fa-phone fa-2x cor-p2"></i>
-          <h4>Telefone</h4>
-          <p>85 98560-2639</p>
-          <a href="tel:+5585985602639" target="_blank">
-            <span class="cor-p1">Ligar <i class="bi bi-arrow-right"></i></span>
-          </a>
-        </div>
+        
+        <!--Formulario-->
+          <form id="form" class="contato-form" action="https://formsubmit.co/maxwellvenicio@gmail.com" method="POST" data-form> 
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name= "email" required >
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5501/contato_form_next.html">
+
+            <button name="enviar" class="botao-secundario" type="submit" data-button>Enviar</button>
+          </form>
       </div>
+      
+
   </section>
 
   <footer class="footer-bg">
