@@ -75,7 +75,7 @@
 .contato-form textarea {
   margin-bottom: 20px;
   height: 150px;
-
+  resize: none;
 }
 
 .contato-form .btn {
